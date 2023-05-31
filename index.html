@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="./assets/css/style.css"></head>
+    <body>
+        <label for="">Name</label>
+        <input id = "item-name-input" type="text">
+        <label for="">Price</label>
+        <input id = "item-price-input" type="number" min="0" required>
+        <button id = "btn"></button>
+
+        <table id = "items-table" style="border:1px solid black">
+            <thead>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                </tr>
+            </thead>
+            <tbody id = "table-body">
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Grand Total</td>
+                    <td id ="total" data-ns-test="grandTotal">0</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <script src="./assets/js/index.js"></script>
+
+    </body>
+</html>
